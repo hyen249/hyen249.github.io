@@ -2,6 +2,10 @@
 /* CSS Document */
 
 
+.trangchu{
+	background-image: url("../image/nen.png");
+}
+
 .hyen:hover .y01{
 	-webkit-animation: rotate-center 3s ease-in-out both;
 	        animation: rotate-center 3s ease-in-out both;
@@ -12,6 +16,48 @@
 }
 
 
+.about{
+	display: none;
+	position: absolute;
+	font-size: 30px;
+}
+.hyen:hover .about{
+	-webkit-animation: tracking-in-expand-fwd-top 0.05s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+	        animation: tracking-in-expand-fwd-top 0.05s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+    display: block;
+}
+
+
+.contact{
+	display: none;
+	position: absolute;
+	font-size: 30px;
+	line-height: 30px;
+	transform: rotate(-60deg);
+}
+.hyen:hover .contact{
+	-webkit-animation: tracking-in-expand-fwd-bottom-p 0.05s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+	        animation: tracking-in-expand-fwd-bottom-p 0.05s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+    display: block;
+}
+
+
+
+.portfolio{
+	display: none;
+	position: absolute;
+	font-size: 30px;
+	line-height: 30px;
+	transform: rotate(60deg);
+}
+.hyen:hover .portfolio{
+	-webkit-animation: tracking-in-expand-fwd-bottom-t 0.05s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+	        animation: tracking-in-expand-fwd-bottom-t 0.05s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+    display: block;
+}
+
+
+/*YO1*/
 @-webkit-keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
@@ -32,8 +78,10 @@
             transform: rotate(180deg);
   }
 }
+/*Y01*/
 
 
+/*Y02*/
 @-webkit-keyframes rotate-out-center {
   0% {
     -webkit-transform: rotate(0);
@@ -58,4 +106,132 @@
     opacity: 0;
   }
 }
+/*Y02*/
 
+/*About*/
+@-webkit-keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-400px);
+            transform: translateZ(-700px) translateY(-400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(-170px);
+            transform: translateZ(0) translateY(-170px);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-400px);
+            transform: translateZ(-700px) translateY(-400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(-170px);
+            transform: translateZ(0) translateY(-170px);
+    opacity: 1;
+  }
+}
+/*About*/
+
+
+/*Contact*/
+@-webkit-keyframes tracking-in-expand-fwd-bottom-p {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: rotate(-60deg) translateZ(0) translateY(0px);
+            transform: rotate(-60deg) translateZ(0) translateY(0px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: rotate(-60deg) translateY(150px);
+            transform: rotate(-60deg) translateY(150px);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd-bottom-p {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: rotate(-60deg) translateZ(0) translateY(0px);
+            transform: rotate(-60deg) translateZ(0) translateY(0px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: rotate(-60deg) translateY(150px);
+            transform: rotate(-60deg) translateY(150px) ;
+    opacity: 1;
+  }
+}
+/*Contact*/
+
+
+/*Portfolio*/
+@-webkit-keyframes tracking-in-expand-fwd-bottom-t {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: rotate(60deg) translateZ(0) translateY(0px);
+            transform: rotate(60deg) translateZ(0) translateY(0px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: rotate(60deg) translateY(150px);
+            transform: rotate(60deg) translateY(150px);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd-bottom-t {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: rotate(60deg) translateZ(0) translateY(0px);
+            transform: rotate(60deg) translateZ(0) translateY(0px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: rotate(60deg) translateY(150px);
+            transform: rotate(60deg) translateY(150px) ;
+    opacity: 1;
+  }
+}
+/*Portfolio*/
+
+
+
+.content p{
+	letter-spacing: 0.6px;
+}
+.about-trai{
+	position: relative;
+}
+.about01{
+	position: absolute;
+}
+.about02{
+	position: absolute;
+}
+.about03{
+	position: absolute;
+}
+.about04{
+	position: absolute;
+}
