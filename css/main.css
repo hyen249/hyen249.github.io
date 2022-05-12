@@ -2,14 +2,11 @@
 /* CSS Document */
 
 
-
-
-
-.icon:hover .y01{
+.hyen:hover .y01{
 	-webkit-animation: rotate-center 3s ease-in-out both;
 	        animation: rotate-center 3s ease-in-out both;
 }
-.icon:hover .y02{
+.hyen:hover .y02{
 	-webkit-animation: rotate-out-center 3s ease-in-out both;
 	        animation: rotate-out-center 3s ease-in-out both;
 }
