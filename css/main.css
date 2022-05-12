@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.icon{
+	width: 1140px;
+	height: 760px;
+}
+
+.icon:hover .y01{
+	-webkit-animation: rotate-center 3s ease-in-out both;
+	        animation: rotate-center 3s ease-in-out both;
+}
+.icon:hover .y02{
+	-webkit-animation: rotate-out-center 3s ease-in-out both;
+	        animation: rotate-out-center 3s ease-in-out both;
+}
+
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+
+@-webkit-keyframes rotate-out-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    opacity: 0;
+  }
+}
+@keyframes rotate-out-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    opacity: 0;
+  }
+}
+
