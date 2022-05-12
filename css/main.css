@@ -2,10 +2,13 @@
 /* CSS Document */
 
 
+/*
 .icon{
 	width: 1140px;
 	height: 760px;
 }
+*/
+
 
 .icon:hover .y01{
 	-webkit-animation: rotate-center 3s ease-in-out both;
