@@ -1,11 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-.trangchu{
-	background-image: url("../image/nen.png");
-}
-
 .hyen:hover .y01{
 	-webkit-animation: rotate-center 3s ease-in-out both;
 	        animation: rotate-center 3s ease-in-out both;
@@ -216,22 +211,157 @@
 /*Portfolio*/
 
 
-
+.trangabout{
+	background-image: url("../image/nen.png");
+}
 .content p{
 	letter-spacing: 0.6px;
 }
 .about-trai{
 	position: relative;
+	margin-top: 200px;
+	margin-left: -200px;
 }
-.about01{
-	position: absolute;
+.about-phai{
+	margin-left: -100px;
+	margin-top: 200px;	
 }
-.about02{
+.about-trai img{
 	position: absolute;
+	-webkit-animation: rotate-center-360 3s ease-in-out both;
+	        animation: rotate-center-360 3s ease-in-out both;
 }
-.about03{
-	position: absolute;
+.hinhnen{
+	background-image: url("../image/hinh2.png");
+	margin-right: 0;
+	margin-bottom: 0;
 }
-.about04{
+
+@-webkit-keyframes rotate-center-360 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center-360 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+.trangportfolio{
+	background-image: url("../image/nen.png");
+}
+/*
+.portfolio-trai{
+	position: relative;
+	margin-bottom: 350px;
+	
+}
+*/
+.portfolio-trai img{
 	position: absolute;
+	-webkit-animation: rotate-center-360 3s ease-in-out both;
+	        animation: rotate-center-360 3s ease-in-out both;
+}
+.portfolio-phai{
+	margin: 200px auto;
+}
+.portfolio-trai{
+	margin: 200px auto;
+}
+
+.trangcontact{
+	background-image: url("../image/nen.png");
+}
+.ttcontact{
+	margin: 200px auto;
+}
+.trangchu{
+	background-image: url("../image/nen.png");
+}
+
+.tttrangchu{
+	margin-top: 100px;
+	
+}
+.contact-trai{
+	position: relative;
+	margin-bottom: 350px;
+	
+}
+.contact-trai img{
+	position: absolute;
+	-webkit-animation: rotate-center-360-xoay 3s ease-in-out infinite both;
+	        animation: rotate-center-360-xoay 3s ease-in-out infinite both;
+}
+
+
+.thanhcuon img{
+	position: relative;
+}
+.thanhcuon xoay{
+	position: absolute;
+	
+}
+.xoay{
+	-webkit-animation: rotate-center-360-xoay linear 2s infinite both;
+	        animation: rotate-center-360-xoay linear 2s infinite both;
+}
+
+@-webkit-keyframes rotate-center-360-xoay {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center-360-xoay {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.hinhanh{
+	margin-top: 50px;
+}
+
+
+.nutchuyentrai{
+	left: -80px !important;
+}
+.nutchuyenphai{
+	right: -80px !important;
+}
+.nutbam{
+	height: 45px;
+	width: 45px;
+	border-radius: 50px;
+}
+
+.home img{
+	margin-left: 300px;
+	margin-bottom: 0px;
+	width: 100px;
 }
